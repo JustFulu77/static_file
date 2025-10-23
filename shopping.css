@@ -1,0 +1,60 @@
+/* shopping.css */
+
+/* Background */
+body {
+    background-image: url('C:/Users/HP/Documents/Shopping/website background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+/* Title */
+.title {
+    font-family: 'Luckiest Guy', cursive; /* attractive Google Font */
+    font-size: 48px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Product Cards */
+.product-card img {
+    transition: transform 0.3s ease;
+}
+.product-card img:hover {
+    transform: scale(1.05);
+}
+.card-title, .card-text {
+    color: #000;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #000;
+}
+footer img {
+    width: 50px;
+    margin-right: 10px;
+}
